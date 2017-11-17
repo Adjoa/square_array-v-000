@@ -13,6 +13,3 @@ end
 def square_array_collect(array)
   array.collect {|num| num ** 2 }
 end
-
-myarray = [1, 6,4,8,2,3,0]
-puts square_array_collect(myarray)
